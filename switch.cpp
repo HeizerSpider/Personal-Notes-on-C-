@@ -7,9 +7,9 @@ int main() {
     const int iTHREE = 3;
     const int iFOUR = 4;
     
-    int x = 3;
-    
-    switch(x) {
+    int x = 0;
+    while(x<5){
+        switch(x) {
         case iONE:
             puts("one");
             break;
@@ -25,5 +25,7 @@ int main() {
         default:
             puts("default");
             break;
+        }
+        x++;
     }
 }

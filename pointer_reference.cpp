@@ -3,8 +3,11 @@ using namespace std;
 
 int main()
 {
+    //Pointers are used to store the address of variable
     int x=7;
     int *ip = &x;
+
+    //When a variable is declared as reference, it becomes an alternative name for an existing variable.
     int &y = x;
     y = 42;
 
